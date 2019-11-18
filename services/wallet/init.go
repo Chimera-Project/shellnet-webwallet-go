@@ -17,9 +17,9 @@ var (
 
 const (
 	// Forking config.
-	addressFormat          = "^TRTL([a-zA-Z0-9]{95}|[a-zA-Z0-9]{183})$"
+	addressFormat          = "^cmra([a-zA-Z0-9]{95}|[a-zA-Z0-9]{183})$"
 	divisor        float64 = 100 // This is 100 for TRTL
-	transactionFee         = 10  // This is 10 for TRTL
+	transactionFee         = 100  // This is 10 for TRTL
 )
 
 func init() {
